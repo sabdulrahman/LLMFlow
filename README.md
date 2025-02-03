@@ -48,8 +48,8 @@ This project allows users to upload a **research paper (word, txt, and PDF)**, g
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/research-paper-chatbot.git
-cd research-paper-chatbot
+git clone https://github.com/sabdulrahman/LLMFlow.git
+cd LLMFlow
 ```
 
 ### 2️⃣ Set Up the Backend (FastAPI)
