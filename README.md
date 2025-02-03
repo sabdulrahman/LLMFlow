@@ -12,6 +12,36 @@ This project allows users to upload a **research paper (word, txt, and PDF)**, g
 - 🔍 **Context-Aware Responses** – Retrieves the most relevant sections from the document before answering.
 
 ---
+## 🛠️ Technologies Used
+
+### **🌐 Frontend (React)**
+- **React.js** – For building the interactive chat interface.
+- **Tailwind CSS** – For styling and responsive design.
+- **JavaScript (ES6+)** – Used for frontend logic.
+- **Fetch API** – For making requests to the backend.
+- **React Hooks** (`useState`, `useEffect`, `useRef`) – For managing state and interactions.
+
+### **⚙️ Backend (FastAPI)**
+- **FastAPI** – A modern Python web framework for handling API requests.
+- **Uvicorn** – ASGI server to run the FastAPI app.
+- **Pydantic** – Data validation for request bodies.
+- **CORS Middleware** – Enables cross-origin requests.
+
+### **🧜 Large Language Models (LLMs)**
+- **Ollama** – Runs local LLMs like `Llama3.2` for chat responses.
+- **GPT (OpenAI GPT-4o)** – (Optional) Used via LangChain for advanced processing.
+- **DeepSeek** – (Optional) Another LLM used for extraction.
+
+### **📂 File Processing**
+- **PDFMiner** – Extracts text from uploaded PDFs.
+- **FuzzyWuzzy** – For text similarity matching to find relevant document sections.
+- **Regular Expressions (Regex)** – To detect and structure research paper sections.
+
+### **🛠️ Additional Tools & Libraries**
+- **shutil & os** – For file handling.
+- **Logging** – For error tracking and debugging.
+
+---
 
 ## 📦 Installation Guide
 
