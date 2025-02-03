@@ -12,7 +12,7 @@ This project allows users to upload a **research paper or a document (word, txt,
 - 🔍 **Context-Aware Responses** – Retrieves the most relevant sections from the document before answering.
 
 ## 📸 App Screenshot
-![ChatFit App Screenshot](chatfit.png)
+![ChatFit App Screenshot](ChatFit.png)
 
 ---
 ## 🛠️ Technologies Used
