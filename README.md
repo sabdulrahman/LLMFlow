@@ -11,6 +11,9 @@ This project allows users to upload a **research paper or a document (word, txt,
 - ⚡ **Multiple LLMs Supported** – Choose from **Llama, GPT, or DeepSeek** for text processing.
 - 🔍 **Context-Aware Responses** – Retrieves the most relevant sections from the document before answering.
 
+## 📸 App Screenshot
+![ChatFit App Screenshot](chatfit.png)
+
 ---
 ## 🛠️ Technologies Used
 
