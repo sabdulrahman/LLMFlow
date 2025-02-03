@@ -1,11 +1,11 @@
-# LLMFlow: Summarization of Scholarly Documents
-LLMFlow integrates GPT with LangChain, DeepSeek and LLama3.2 with Ollama to generate concise summaries of large-scale research documents, reducing reading time and effort for academics. The project enhances accessibility and efficiency in reviewing scholarly literature.
+# LLMFlow: Summarization of Documents
+LLMFlow integrates GPT with LangChain, DeepSeek and LLama3.2 with Ollama to generate concise summaries of large-scale documents (research documents), reducing reading time and effort for academics. The project enhances accessibility and efficiency in reviewing literature.
 
-This project allows users to upload a **research paper (word, txt, and PDF)**, generate a **summary**, and ask **questions** about its content using various **Large Language Models (LLMs)** such as **Ollama, GPT, and DeepSeek**. 
+This project allows users to upload a **research paper or a document (word, txt, and PDF)**, generate a **summary**, and ask **questions** about its content using various **Large Language Models (LLMs)** such as **Ollama, GPT, and DeepSeek**. 
 
 ## 🚀 Features
 
-- ✅ **Upload Research Papers** – Supports `.txt``.docx``.pdf` format.
+- ✅ **Upload document** – Supports `.txt``.docx``.pdf` format.
 - 📝 **Generate Summaries** – Extracts key sections and provides a concise summary.
 - 🤖 **Chat with the Paper** – Ask questions and get AI-generated responses based on the document.
 - ⚡ **Multiple LLMs Supported** – Choose from **Llama, GPT, or DeepSeek** for text processing.
@@ -118,7 +118,7 @@ OPENAI_API_KEY=your_openai_api_key
 ---
 ## 💡 Future Improvements
 - 🔹 **Enhanced Document Processing** – Better PDF parsing and section extraction.
-- 🔹 **Multi-Document Support** – Upload and interact with multiple research papers.
+- 🔹 **Multi-Document Support** – Upload and interact with multiple documents.
 - 🔹 **Advanced Query Matching** – Improve accuracy in retrieving document sections.
 ---
 ## 🤝 Contributing
