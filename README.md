@@ -3,59 +3,59 @@ LLMFlow integrates GPT with LangChain, DeepSeek and LLama3.2 with Ollama to gene
 
 This project allows users to upload a **research paper or a document (word, txt, and PDF)**, generate a **summary**, and ask **questions** about its content using various **Large Language Models (LLMs)** such as **Ollama, GPT, and DeepSeek**. 
 
-## 🚀 Features
+## Features
 
-- ✅ **Upload document** – Supports `.txt``.docx``.pdf` format.
-- 📝 **Generate Summaries** – Extracts key sections and provides a concise summary.
-- 🤖 **Chat with the Paper** – Ask questions and get AI-generated responses based on the document.
-- ⚡ **Multiple LLMs Supported** – Choose from **Llama, GPT, or DeepSeek** for text processing.
-- 🔍 **Context-Aware Responses** – Retrieves the most relevant sections from the document before answering.
+- **Upload document** – Supports `.txt``.docx``.pdf` format.
+- **Generate Summaries** – Extracts key sections and provides a concise summary.
+- **Chat with the Paper** – Ask questions and get AI-generated responses based on the document.
+- **Multiple LLMs Supported** – Choose from **Llama, GPT, or DeepSeek** for text processing.
+- **Context-Aware Responses** – Retrieves the most relevant sections from the document before answering.
 
-## 📸 App Screenshot
+## App Screenshot
 ![LLMFLow App Screenshot](llmflow.png)
 
 ---
-## 🛠️ Technologies Used
+## Technologies Used
 
-### **🌐 Frontend (React)**
+### **Frontend (React)**
 - **React.js** – For building the interactive chat interface.
 - **Tailwind CSS** – For styling and responsive design.
 - **JavaScript (ES6+)** – Used for frontend logic.
 - **Fetch API** – For making requests to the backend.
 - **React Hooks** (`useState`, `useEffect`, `useRef`) – For managing state and interactions.
 
-### **⚙️ Backend (FastAPI)**
+### **Backend (FastAPI)**
 - **FastAPI** – A modern Python web framework for handling API requests.
 - **Uvicorn** – ASGI server to run the FastAPI app.
 - **Pydantic** – Data validation for request bodies.
 - **CORS Middleware** – Enables cross-origin requests.
 
-### **🧜 Large Language Models (LLMs)**
+### **Large Language Models (LLMs)**
 - **Ollama** – Runs local LLMs like `Llama3.2` for chat responses.
 - **GPT (OpenAI GPT-4o)** – (Optional) Used via LangChain for advanced processing.
 - **DeepSeek** – (Optional) Another LLM used for extraction.
 
-### **📂 File Processing**
+### **File Processing**
 - **PDFMiner** – Extracts text from uploaded PDFs.
 - **FuzzyWuzzy** – For text similarity matching to find relevant document sections.
 - **Regular Expressions (Regex)** – To detect and structure research paper sections.
 
-### **🛠️ Additional Tools & Libraries**
+### **Additional Tools & Libraries**
 - **shutil & os** – For file handling.
 - **Logging** – For error tracking and debugging.
 
 ---
 
-## 📦 Installation Guide
+## Installation Guide
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/sabdulrahman/LLMFlow.git
 cd LLMFlow
 ```
 
-### 2️⃣ Set Up the Backend (FastAPI)
+### Set Up the Backend (FastAPI)
 
 #### Create and Activate a Virtual Environment
 
@@ -82,7 +82,7 @@ The **backend** will be running at: [`http://localhost:8000`](http://localhost:8
 
 ---
 
-### 3️⃣ Set Up the Frontend (React)
+### Set Up the Frontend (React)
 
 ```bash
 cd frontend
@@ -94,7 +94,7 @@ The **frontend** will be available at: [`http://localhost:3000`](http://localhos
 
 ---
 
-## 🔥 Usage
+## Usage
 
 1. Open the web interface in your browser at [`http://localhost:3000`](http://localhost:3000).
 2. Upload a **PDF research paper**.
@@ -104,7 +104,7 @@ The **frontend** will be available at: [`http://localhost:3000`](http://localhos
 
 ---
 
-## 🛠 API Endpoints
+## API Endpoints
 
 | Method | Endpoint           | Description |
 |--------|-------------------|-------------|
@@ -113,16 +113,19 @@ The **frontend** will be available at: [`http://localhost:3000`](http://localhos
 | `GET`  | `/`               | Check if the backend is running. |
 
 ---
-## 📌 Environment Variables
+## Environment Variables
 To use **GPT-based processing**, create a `.env` file in the **backend directory** and add:
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
 ---
-## 💡 Future Improvements
-- 🔹 **Enhanced Document Processing** – Better PDF parsing and section extraction.
-- 🔹 **Multi-Document Support** – Upload and interact with multiple documents.
-- 🔹 **Advanced Query Matching** – Improve accuracy in retrieving document sections.
+## Future Improvements
+- **Enhanced Document Processing** – Better PDF parsing and section extraction.
+- **Multi-Document Support** – Upload and interact with multiple documents.
+- **Advanced Query Matching** – Improve accuracy in retrieving document sections.
 ---
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Feel free to open an **issue** or submit a **pull request**.
+
+### License
+**MIT License**. See `LICENSE` for more details.
